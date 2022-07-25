@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=<f>, initial-scale=1.0" />
+    <title>ejercicio4</title>
+  </head>
+  <body>
+    <h1>Formulario de registro</h1>
+    <form>
+      <label>Nombre:</label>
+      <input type="text" id="nombre" name="nombre" class="form-control" />
+      <br />
+      <br />
+      <label>Apellidos:</label>
+      <input type="text" id="apellidos" name="apellidos" class="form-control" />
+      <br />
+      <br />
+      Sexo:
+      <input name="hombre" type="radio" value="hombre" />hombre
+
+      <input name="mujer" type="radio" value="mujer" />mujer
+
+      <br />
+      <br />
+      <label>Correo:</label>
+      <input type="email" id="email" name="email" class="form-control" />
+      <br />
+      <br />
+
+      Poblacion:
+      <select>
+        <option value="alicante">alicante</option>
+        <option value="españa">españa</option>
+        <option value="murcia">murcia</option>
+      </select>
+      <br />
+      <br />
+      Descripcion:
+      <textarea name="textarea" rows="10" cols="50"></textarea>
+      <br />
+      <br />
+      <label
+        ><input type="checkbox" id="cbox1" value="first_checkbox" /> Deseo
+        recibir informacion sobre novedades y ofertas</label
+      ><br />
+
+      <input type="checkbox" id="cbox2" value="second_checkbox" />
+      <label for="cbox2"
+        >Declaro haber leido y aceptar las condiciones generales del programa y
+        la normativa sobre proteccion de datos.</label
+      >
+      <br />
+      <br />
+      <button type="submit">Enviar</button>
+    </form>
+  </body>
+</html>
